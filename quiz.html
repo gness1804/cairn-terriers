@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"/> <!--To enable media queries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> <!--Basic jQuery CDN -->
+    <script src="script.js"></script> <!-- for JavaScript; change file name as needed-->
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" style="text/css" href="style.css"/> <!-- for CSS; change file name as needed -->
+    <title>Quiz: Are You and a Cairn Terrier the Right Fit?</title>
+  </head>
+  <body>
+    <div id="main" class="quiz-main">
+      <a href="index.html"><button type="button" name="button" class="btn-to-home">Back Home</button></a>
+      <h1>Quiz: Are You and a Cairn Terrier the Right Fit?</h1>
+      <div class="question"><p>Choosing the right dog breed is no small task. The purpose of this quiz is not to serve as a general guide to this--there are many online quizzes and guides to help out, such as <a href = "http://www.animalplanet.com/breed-selector/dog-breeds.html" target="_blank">this one</a>. Rather, this quiz attempts to see how well your personality and lifestyle fit with the needs and personality of a Cairn Terrier. Take the answers with a grain of salt, and be sure to do your due diligence in choosing a dog. Good luck!</p></div>
+      <div class="question">
+        <p><span>Question 1:</span> How much time and effort do you anticipate investing in training your new dog?</p>
+        <input type="radio" name="q1" id="1a">
+        <label for="1a">I'll hire it out.</label> <!-- 3 -->
+        <input type="radio" name="q1" id="1b">
+        <label for="1b">Training? Who says a dog needs training?</label> <!-- 1 -->
+        <input type="radio" name="q1" id="1c">
+        <label for="1c">A good deal of training; commensurate with the dog's and my needs.</label><!-- 4 -->
+        <input type="radio" name="q1" id="1d">
+        <label for="1d">A little, but not that much.</label> <!-- 2 -->
+      </div>
+      <div class="question">
+        <p><span>Question 2:</span> What is your philosophy on leashes?</p>
+        <input type="radio" name="q2" id="2a">
+        <label for="2a">"Leash"-ez faire: Dogs weren't meant to be constrained by leashes!</label> <!-- 2 -->
+        <input type="radio" name="q2" id="2b">
+        <label for="2b">Keep them leashed as required by their temperament and training, but on balance, err on the side of caution.</label> <!-- 4 -->
+        <input type="radio" name="q2" value="value" id="2c">
+        <label for="2c">It depends mostly on circumstances external to the dog and I, i.e., if there are lots of cars or other dogs around.</label> <!-- 3 -->
+        <input type="radio" name="q2" id="2d">
+        <label for="2d">Not applicable, because I plan to rarely or never take my dog out.</label> <!-- 1 -->
+      </div>
+      <div class="question">
+        <p><span>Question 3: </span>How independent do you want your dog to be?</p>
+        <input type="radio" name="q3" id="3a">
+        <label for="3a">Middle-of-the-road. </label> <!-- 3 -->
+        <input type="radio" name="q3" id="3b">
+        <label for="3b">Like a cat: they keep to themselves much or most of the time.</label> <!-- 2 -->
+        <input type="radio" name="q3" id="3c">
+        <label for="3c">Very docile and submissive.</label> <!-- 1 -->
+        <input type="radio" name="q3" id="3d">
+        <label for="3d">He/she should have a will of his/her own, but also need lots of love and care.</label> <!-- 4 -->
+      </div>
+      <div class="question">
+        <p><span>Question 4: </span>What size dog do you prefer?</p>
+        <input type="radio" name="q4" id="4a">
+        <label for="4a">Large and (not) in charge.</label> <!-- 1 -->
+        <input type="radio" name="q4" id="4b">
+        <label for="4b">Small, but not toy.</label> <!-- 4 -->
+        <input type="radio" name="q4" id="4c">
+        <label for="4c">Mid-sized, like an <a href = "http://www.akc.org/dog-breeds/airedale-terrier/" target="_blank">Airedale</a>.</label> <!-- 2 -->
+        <input type="radio" name="q4" id="4d">
+        <label for="4d">Size is not an issue.</label> <!-- 3 -->
+      </div>
+      <div class="question">
+        <p><span>Question 5: </span>How important is it that your dog get along with other pets?</p>
+        <input type="radio" name="q5" id="5a">
+        <label for="5a">I don't have other pets, or I will put forth considerable effort to train the dog to accept the other pets.</label> <!-- 4 -->
+        <input type="radio" name="q5" id="5b">
+        <label for="5b">The dog should be well behaved in general, but I am not overly concerned about this particular issue.</label> <!-- 3 -->
+        <input type="radio" name="q5" id="5c">
+        <label for="5c">So-so.</label> <!-- 2 -->
+        <input type="radio" name="q5" value="value" id="5d">
+        <label for="5d">Extremely: my new dog must be best friends with my bird, cat, and other dog.</label> <!-- 1 -->
+      </div>
+      <button type="submit" name="button" class="btn-submit-quiz" onclick="result()">Submit Responses</button>
+    </div> <!-- end of main div -->
+  </body>
+</html>
