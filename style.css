@@ -150,10 +150,6 @@ a:hover {
   height: 100px;
 }
 
-.bottom-container-item img:hover {
-  border: 2px solid black;
-}
-
 .btn-to-home {
   display: block;
   margin-left: auto;
