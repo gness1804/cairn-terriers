@@ -87,7 +87,7 @@ a:hover {
   cursor: pointer;
 }
 
-.btn-sidebar {
+.btn-sidebar, .btn-to-home, .btn-submit-quiz {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -156,22 +156,22 @@ a:hover {
   height: 100px;
 }
 
-.btn-to-home {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-}
+//.btn-to-home {
+//  display: block;
+//  margin-left: auto;
+//  margin-right: auto;
+//  margin-top: 10px;
+//}
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
   .btn-to-home {font-size: 30px; text-transform: uppercase; border: 1px solid black; border-radius: 5px; padding: 20px; background-color: white;}
 }
 
-.btn-submit-quiz {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+//.btn-submit-quiz {
+//  display: block;
+//  margin-left: auto;
+//  margin-right: auto;
+//}
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets*/
   .btn-submit-quiz {font-size: 30px; text-transform: uppercase; border: 1px solid black; border-radius: 5px; padding: 20px; background-color: white;}
