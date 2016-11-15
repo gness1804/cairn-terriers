@@ -101,6 +101,10 @@ a:hover {
   font-family: 'Rokkitt', serif !important;
 }
 
+.btn-sidebar:hover, .btn-to-home:hover, .btn-submit-quiz:hover {
+  background-color: rgb(250, 149, 231);
+}
+
 #img-puck{
   display: block;
   margin-left: auto;
